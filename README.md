@@ -6,16 +6,19 @@ A game of pong written in pygame that
 - pattles change colors each time the music sequence loops
 - difficulty progressively goes up
 
-Player 1 Controls:
-Move up: `Q`
-Move Down: `A`
-
-Player 2 Controls:
-Move up: `P`
-Move Down: `L`
-
-
-# To build
+### to play
 ```
 $ python main.py
 ```
+
+### controls
+Player 1:
+    - move up: `Q`
+    - move Down: `A`
+
+Player 2:
+    - move up: `P`
+    - move Down: `L`
+
+Reset:
+    - `SPACEBAR`
