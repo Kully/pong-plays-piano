@@ -188,16 +188,17 @@ while not done:
             pattle1_Img.fill(get_random_color())
             pattle2_Img.fill(get_random_color())
 
-            # add a different angle for ball to fly in after hit
-            max_velocity = max(ball_y_possible_velocities)
-            ball_y_possible_velocities.append(max_velocity + 1)
-
             # increment x velocity of ball
             if abs(ball["x_velocity"]) < ball["max_x_speed"]:
                 if ball["x_velocity"] < 0:
                     ball["x_velocity"] -= 1
                 else:
                     ball["x_velocity"] += 1
+
+        if music_index == len(notes_array) - 1:
+            # add a different angle for ball to fly in after hit
+            max_velocity = max(ball_y_possible_velocities)
+            ball_y_possible_velocities.append(max_velocity + 1)
 
         # update ball velocity
         ball["x_velocity"] = -1 * ball["x_velocity"]
