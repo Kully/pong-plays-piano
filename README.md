@@ -1,10 +1,10 @@
-# pong-plays-music
+# pong-plays-piano
 
-A game of pong written in pygame that
+A game of pong written in pygame
 
 - plays a tone in a sequence of notes each time ball hits a pattle
 - pattles change colors each time the music sequence loops
-- difficulty progressively goes up
+- difficulty goes up gradually
 
 ### to play
 ```
