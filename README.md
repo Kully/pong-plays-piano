@@ -1,2 +1,6 @@
-# pong-plays-mario
-pong written in PyGame, that plays the 1-1 mario theme
+# pong-plays-piano
+
+A game of pong written in pygame.
+
+- plays the tone each time ball hits a pattle
+- pattles flashe random colors
