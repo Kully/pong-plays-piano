@@ -1,5 +1,7 @@
 # pong-plays-piano
 
+![Image](gifs/pong_plays_piano.gif)
+
 A game of pong written in pygame
 
 - plays a tone in a sequence of notes each time ball hits a pattle
