@@ -14,7 +14,6 @@ pygame.display.set_caption(title)
 gameDisplay = pygame.display.set_mode((x_res, y_res))
 clock = pygame.time.Clock()
 
-
 def get_random_color():
     r = random.choice(range(100, 256))
     g = random.choice(range(100, 256))
